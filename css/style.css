@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+     background-image: url(../assets/img1.png); 
+     height: 100vh;
+     background-position: top center;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;  
+}
+:root{
+    font-size: 62.5%;
+    --title-color: #E1E1E6;
+    --text-color: #C4C4CC;
+    --second-color: #02799D;
+}
+.hide{
+    display: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 12.2rem;
+    padding: 4rem 72rem 4rem 7.2rem;
+    align-items: center;
+    gap: 3.2rem;   
+}
+nav img{
+    width: 4.9rem;
+}
+.home-page{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 17rem;
+   gap: 2.4rem;
+}
+.universe-page{
+    margin-top: 6.3rem;
+    padding-left: 10.2rem;
+    padding-right: 2rem;   
+}
+.exploration-page{
+    margin-top: 6.3rem;
+    padding-left: 10.2rem;
+    padding-right: 2rem;
+}
+ul{   
+    font-size: 2.1rem;
+    display: flex;
+    width: 39rem;
+    align-items: flex-start;
+    gap: 3.2rem;  
+}
+a{
+  color: var(--text-color); 
+  text-decoration: none;
+}
+a:hover{
+    color: var(--title-color);
+    font-weight: 700;
+}
+h1{
+    color: var(--title-color);
+    font-size: 4.8rem;
+}
+p{
+    color: var(--text-color);
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 1.6rem;
+    max-width: 64.8rem;
+    line-height: 2.9rem;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    display: inline-flex;
+    padding: 1.2rem 3.2rem 1.2rem  3.2rem ;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    border: .2rem solid white;
+    background: transparent;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: var(--second-color);
+}
+
